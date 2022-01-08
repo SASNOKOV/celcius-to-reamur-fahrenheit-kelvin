@@ -7,7 +7,7 @@ print("The temperature in celcius is : ", celcius, "Celcius")
 reaumur = (4/5) * celcius
 print("The temperature in reamur is : ",reaumur, "Reaumur")
 # fahrenheit
-fahrenheit = ((9/5) * celcius) + 32
+fahrenheit  = ( celcius * 9 / 5 ) +  32
 print("The temperature in fahrenheit is : ", fahrenheit, "fahrenheit")
 #kelvin
 kelvin = celcius + 237
